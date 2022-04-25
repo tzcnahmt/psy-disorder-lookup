@@ -13,7 +13,7 @@ function Disorder(data, index) {
 
     this.getDisorder = function () {
         const orderedData = this.disorderData[this.disorderIndex]
-        return `<h1>${orderedData.title}</h1><p>${orderedData.desc}</p>`
+        return `<h1 style="color: blue">${orderedData.title}</h1><p>${orderedData.desc}</p>`
     }
 }
 
